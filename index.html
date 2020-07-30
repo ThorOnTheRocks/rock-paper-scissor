@@ -4,16 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    
+   
+
+
+    <title>Rock, Paper, Scissor</title>
 </head>
 
 
 <body>
 
-    <h1 class='heading-game'>Press F12 to open the browser console and type <em>game()</em> to start playing Rock, Paper
-        and Scissor.</h1>
+    <h1 class="heading-game">Rock Paper Scissor </h1>
+    <p class="action-player">Make your move: </p>
 
-    
+    <div class="container">
+
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissor">Scissors</button>
+
+    </div>
+
+    <h2 id="result"></h2>
+
+    <div class="container-score">
+        <p class="score">User Score: <span class="score-number" id="user-score">0</span></p>
+        <p class="score">Computer Score: <span class="score-number" id="computer-score">0</span></p>
+        <p class="score">Tie: <span class="score-number"  id="tie-score">0</span></p>
+    </div>
+
+    <div class="container-announcement">
+        <p id="winner-announcement"></p>
+        <span id="refresh"></span>
+    </div>
+
+   
+
+
+
+    <audio id="win-audio" src="audio/oh-yes.wav"></audio>
+    <audio id="lose-audio" src="audio/perfect-fart.mp3"></audio>
+    <audio id="tie-audio" src="audio/what-happened.wav"></audio>
+    <audio id="winner-audio" src="audio/victory-1.mp3"></audio>
+    <audio id="loser-audio" src="audio/evil-laugh.wav"></audio>
+
+
 
     <script src="script.js"></script>
 

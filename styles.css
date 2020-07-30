@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    text-align: center;
+    background-color: #f0a500;
+}
+
+
+
+h1 {
+    margin-top: 3rem;
+    
+    font-size: 5rem;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.action-player{
+    font-size: 2rem;
+}
+
+.description-score{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.score{
+    font-size: 2rem;
+    
+}
+
+.container-announcement {
+    margin-top: 2rem;
+}
+
+#winner-announcement {
+    
+    font-size: 5rem;
+}
+
+#refresh{
+    font-size: 2rem;
+}
+
+
+
+h2 {
+    margin-bottom: 3rem;
+    
+    font-size: 3rem;
+    
+}
+
+
+
+
+#rock,
+#paper,
+#scissor{
+    
+
+   margin: 2rem;
+   padding: 1rem 3rem;
+   background-color: white;
+   border-radius: 5rem;
+   border: 2px solid black;
+   font-size: 1.3rem;
+
+   
+}
+
+#rock:hover,
+#paper:hover,
+#scissor:hover {
+    background-color: yellowgreen;
+}
+
+p{
+    font-size: 1.3rem;
+}
